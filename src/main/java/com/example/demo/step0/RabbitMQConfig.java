@@ -9,7 +9,7 @@ import org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import javax.sound.midi.Receiver;
+
 
 
 @Configuration
@@ -39,6 +39,6 @@ public class RabbitMQConfig {
 
     @Bean
     public MessageListenerAdapter listenerAdapter(Receiver receiver) {
-        return new MessageListenerAdapter(Receiver, "receiverMessage");
+        return new MessageListenerAdapter(receiver, "receiveMessage");
     }
 }
