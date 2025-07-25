@@ -1,4 +1,4 @@
-package com.example.demo.step0;
+package com.example.demo.step1;
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Component;

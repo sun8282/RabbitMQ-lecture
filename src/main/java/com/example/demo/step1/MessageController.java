@@ -1,4 +1,4 @@
-package com.example.demo.step0;
+package com.example.demo.step1;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
